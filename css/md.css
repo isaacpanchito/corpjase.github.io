@@ -1,0 +1,73 @@
+@media screen and (max-width: 768px){
+    #menu-ham{
+        width: 60%;
+        min-width: 100px;
+        display: inline-block;
+        vertical-align:middle;
+        text-align: right;
+    }
+    #abrir-ham{
+        display: inline-block;
+    }
+    #menuPrincipal{
+        height: 0px;
+        width: 90%;
+        overflow: hidden;
+    }
+    #cabecera:target #abrir-ham{
+        display: none;
+    }
+    #cabecera:target #cerrar-ham{
+        display: inline-block;
+    }
+    #cabecera:target #menuPrincipal{
+        height: 150px;
+    }
+    .opcion{
+        width: 100%;
+        text-align: left;
+    }
+    #quienes img, #quienes article{
+        width: 100%;
+        display: block;
+
+    }
+    #quienesimg{
+        min-width: auto;
+        height: auto;
+        scroll-padding-top: 20px;
+    }
+    #quienes article{
+        padding-top:20px;
+        text-align: center;
+    }
+    #quienes p{
+        display: none;
+    }
+    #quienes a{
+        margin: 0 auto;
+    }
+    #filosofia p{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    #filosofia h2{
+        font-size: 1.2rem;
+    }
+    .proy{
+        width: 100%;
+    }
+        .proy img{
+            height: auto;
+        }
+        .separar-izq{
+            margin-left: 0;
+        }
+        .separar-der{
+            margin-right: 0;
+        }
+
+    footer{
+        text-align: center;
+    }
+}
