@@ -82,9 +82,7 @@ header{
     text-align: left;
     min-width: 320px;
 }
-.contenido h6{
-    font-size:0;
-}
+
     #quienes{
         background-color: #444246;   
     }
@@ -114,6 +112,9 @@ header{
             font-size: 3.5rem;
             color: #fff;
             padding-bottom: 10px;
+        }
+        #quienes h6{
+            font-size:0rem;
         }
         #quienes p{
             font-size: 1rem;
