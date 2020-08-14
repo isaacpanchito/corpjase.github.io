@@ -82,6 +82,9 @@ header{
     text-align: left;
     min-width: 320px;
 }
+.contenido h6{
+    font-size:0;
+}
     #quienes{
         background-color: #444246;   
     }
@@ -267,4 +270,3 @@ header{
             margin-right: 1%;
             float: left;
         }
-       h6{ font-size:0;}
